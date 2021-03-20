@@ -178,7 +178,7 @@
                 </a>
               </li>
               <li class="social-link">
-                <a href="#" class="social-link-container" class="social-icon">
+                <a href="#" class="social-link-container social-icon">
                   <svg width="20px" height="20px">
                     <use href="./images/icons.svg#icon-linkedin"></use>
                   </svg>
@@ -213,7 +213,7 @@
                 </a>
               </li>
               <li class="social-link">
-                <a href="#" class="social-link-container" class="social-icon">
+                <a href="#" class="social-link-container social-icon">
                   <svg width="20px" height="20px">
                     <use href="./images/icons.svg#icon-linkedin"></use>
                   </svg>
@@ -248,7 +248,7 @@
                 </a>
               </li>
               <li class="social-link">
-                <a href="#" class="social-link-container" class="social-icon">
+                <a href="#" class="social-link-container social-icon">
                   <svg width="20px" height="20px">
                     <use href="./images/icons.svg#icon-linkedin"></use>
                   </svg>
@@ -283,7 +283,7 @@
                 </a>
               </li>
               <li class="social-link">
-                <a href="#" class="social-link-container" class="social-icon">
+                <a href="#" class="social-link-container social-icon">
                   <svg width="20px" height="20px">
                     <use href="./images/icons.svg#icon-linkedin"></use>
                   </svg>
@@ -361,6 +361,7 @@
           <li><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
           <li><a href="tel:+380961111111" class="contact-link">+380961111111</a></li>
         </ul>
+        </address>
         </div>
         <div class="footer-social">
           <p>присоединяйтесь</p>
@@ -387,7 +388,7 @@
                 </a>
               </li>
               <li class="social-link">
-                <a href="#" class="social-link-container" class="social-icon">
+                <a href="#" class="social-link-container social-icon">
                   <svg width="20px" height="20px">
                     <use href="./images/icons.svg#icon-linkedin"></use>
                   </svg>
@@ -397,9 +398,9 @@
         </div>
 
         <div class="footer-subscribe">
-          <label for="email-subscribe"><p class="subscribe-label">Подпишитесь на рассылку</p></label>
-          <form action="" class="subscribe-form">
-            <input type="mail" class="subscribe-input" placeholder="E-mail" name="email" id="email-subscribe">
+          <label for="email-subscribe"><span class="subscribe-label">Подпишитесь на рассылку</span></label>
+          <form class="subscribe-form">
+            <input type="email" class="subscribe-input" placeholder="E-mail" name="email" id="email-subscribe">
             <button type="submit" class="subscribe-button">Подписаться
               <svg width="24px" height="24px" class="icon-send">
                 <use href="./images/icons.svg#icon-send"></use>
@@ -408,7 +409,6 @@
           </form>
         </div>
 
-      </address>
       </div>
     </footer>
 
@@ -422,17 +422,17 @@
 
         <h2 class="pop-up-heading">Оставьте свои данные, мы вам перезвоним</h2>
 
-        <form action="" class="pop-up-form">
+        <form class="pop-up-form">
           <label class="form-field">
-            <p class="form-label">Имя</p>
-            <input type="name" class="form-input" name="name">
+            <span class="form-label">Имя</span>
+            <input type="text" class="form-input" name="name">
             <svg width="18px" height="18px" class="form-icon">
               <use href="./images/icons.svg#icon-form-name"></use>
             </svg>
           </label>
 
           <label class="form-field">
-            <p class="form-label">Телефон</p>
+            <span class="form-label">Телефон</span>
             <input type="tel" class="form-input" name="phone">
             <svg width="18px" height="18px" class="form-icon">
               <use href="./images/icons.svg#icon-form-phone"></use>
@@ -440,7 +440,7 @@
           </label>
 
           <label class="form-field">
-            <p class="form-label">Почта</p>
+            <span class="form-label">Почта</span>
             <input type="email" class="form-input" name="email">
             <svg width="18px" height="18px" class="form-icon">
               <use href="./images/icons.svg#icon-form-mail"></use>
@@ -448,7 +448,7 @@
           </label>
 
            <label class="form-field form-comment">
-            <p class="form-label">Комментарий</p>
+            <span class="form-label">Комментарий</span>
             <textarea name="comment" class="form-input comment-field" placeholder="Введите текст"></textarea>
           </label>
 
